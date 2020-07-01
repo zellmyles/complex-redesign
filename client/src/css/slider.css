@@ -1,0 +1,33 @@
+.carousel-slide {
+    text-align: center;
+    width: 60%;
+    padding-left: 300px;
+    margin-right: 50px;
+  }
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+   .slides {
+    align-items: center;
+    width: 100%;
+    margin-right: 100px;
+  }
+  .slides .slick-prev,
+  .slides .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index:1;
+  }
+  .slides .slick-prev {
+    left: 25px;
+  }
+  .slides .slick-next {
+    right: 25px;
+  }
+  img {
+      height: 600px;
+      
+  }

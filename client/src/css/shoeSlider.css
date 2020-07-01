@@ -1,0 +1,15 @@
+/* Slider */
+.carousel-slide {
+    /* padding-top: 10px; */
+    text-align: center;
+    /* margin: auto; */
+    height: 240px;
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+  }
+
+.slides {
+    align-items: center;
+    width: 100%;
+  }

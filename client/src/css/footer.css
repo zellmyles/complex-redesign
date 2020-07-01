@@ -1,0 +1,97 @@
+html,body {
+    position:relative;
+    margin:0;
+    padding:0;
+    overflow:auto;
+
+}
+.mainFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    text-shadow: .5px .5px .5px black;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    background: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footerLogo{
+    margin-bottom: -5%;
+    float: left;
+    height: 80px;
+    width: 80px;
+    /* position: relative; */
+}
+.copyRight{
+    padding-top: 25px;
+    font-weight: bold;
+}
+.facebook:hover{
+    opacity: .6;
+}
+.twitter:hover{
+    opacity: .6;
+}
+.instagram:hover{
+    opacity: .6;
+}
+.youtube:hover{
+    opacity: .6;
+}
+.footerForm{
+    /* padding: 5px; */
+    padding-right: 50px;
+    padding-bottom: 5px;
+  
+}
+.emailArea{
+    padding-left: 10px;
+}
+.textArea{
+    padding-left: 10px;
+    height: 90px;
+    bottom: -5;
+}
+.formBtn{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    padding-top: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 35px;
+}
+.formBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media(max-width: 800px){
+    .mainFooter{
+        height: 105px;
+    }
+    .copyRight{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .footerForm{
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+}
+
+@media(max-width: 400px){
+    .mainFooter{
+        height: 80px;
+    }
+    .footerForm{
+        display: none;
+      
+    }
+}
